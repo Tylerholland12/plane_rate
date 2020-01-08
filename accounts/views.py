@@ -8,7 +8,7 @@ from django.views import generic
 # Create your views here
 
 def index(request):
-	return HttpResponse('Heya, Explorer ? ')
+	return HttpResponse(" You're a cute account ;)")
 
 class RegisterUserView(generic.CreateView):
 	form_class = UserCreationForm	
