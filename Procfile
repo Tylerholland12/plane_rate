@@ -1,1 +1,1 @@
-web: gunicorn Planeblog.wsgi --log-file -
+web: gunicorn projectname.wsgi --log-file -
