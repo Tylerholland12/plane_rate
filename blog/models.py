@@ -7,6 +7,7 @@ class Post(models.Model):
 	title = models.CharField(max_length=255)
 	author = models.ForeignKey('auth.User',on_delete=models.CASCADE)
 	body = models.TextField()
+	# upload = models.FileField(upload_to='uploads/')
 
 	def __str__(self):
 		return self.title
