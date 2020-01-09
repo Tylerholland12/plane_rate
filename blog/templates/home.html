@@ -2,11 +2,25 @@
 
 {% block content %}
 	{% for post in posts %}
-		<div class="post_entry">
-			<h2 class="post_title">
-				<a href="{% url 'post-detail' post.pk %}">{{post.title}}</a>
-			</h2>
-			<p class="post_content">{{post.body}}</p>
+
+			<div class="card" style="width: 18rem;">
+					<div class="card-body">
+						<h2 class="post_title">
+								<a href="{% url 'post-detail' post.pk %}">{{post.title}}</a>
+							</h2>
+							<p class="post_content">{{post.body}}</p>
+							
+
+
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star"></span>
+							<span class="fa fa-star"></span>
+							<!-- <a class="navbar-brand" href="admin/">Planeo</a>
+							<a class="navbar-brand" href="accounts/">Planeo</a> -->
+					</div>
+				  </div>
 		</div>
 	{%endfor%}
 {% endblock %}

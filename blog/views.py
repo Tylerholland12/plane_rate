@@ -13,6 +13,7 @@ class PostDetailView(DetailView):
 	model = Post
 	template_name = 'post_detail.html'
 
+
 class CreatePostView(CreateView):
 	model = Post
 	template_name = 'new_post.html'
@@ -28,7 +29,7 @@ class PostDeleteView(DeleteView):
 	template_name = 'delete_post.html'
 	success_url = reverse_lazy('home')
 
-# class PostUploadView(UpdateView):
+# class PostUploadView(CreateView):
 # 	model = Post
 # 	template_name = 'upload.html'
 
