@@ -25,7 +25,7 @@ SECRET_KEY = 'x@bon=4vmzan&ij))0kv^mrfu9zmgfjf7=c&ccb*gr3h7l)8e&'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost','planeratingsystem.herokuapp.com']
+ALLOWED_HOSTS = ['localhost','uniqueplaneblog.herokuapp.com']
 
 
 # Application definition
