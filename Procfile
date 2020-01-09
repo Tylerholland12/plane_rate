@@ -1,0 +1,1 @@
+web: gunicorn Planeblog.wsgi --log-file -
