@@ -6,6 +6,7 @@
 
 
 
+***
 
 ## Description
 
@@ -16,6 +17,7 @@ This program is meant to be used as an open source for users to be able to login
 
 
 
+***
 
 ## Progress
 
@@ -26,7 +28,7 @@ The main objectives for this site have been completes; users are able to login, 
 
 
 
-
+***
 ## Goals
 
 1. To make the header and footer responsive
@@ -35,3 +37,8 @@ The main objectives for this site have been completes; users are able to login, 
 4. Letting the user rate the posts based on how helpful their comments and videos are 
 5. Having the stars underneath the posts responsive
 6. Having the user post a link to a reliable source that has high-quality sites to buy planes and high-quality companies that manufacture planes
+
+
+
+
+
